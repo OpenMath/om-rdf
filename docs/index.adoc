@@ -429,7 +429,7 @@ https://github.com/numerateweb/openmath-cd (29.06.2021)].
 
 == Related work
 
-In 2003 Marchiori outlined the idea and possible applications of
+In 2003 Marchiori <<marchiori2003>> outlined the idea and possible applications of
 representing mathematical expressions as part of the Semantic Web.
 Advantages are seen in an RDF representation that enables the reuse of
 Semantic Web languages and tools to support functions like search,
@@ -438,8 +438,8 @@ direct conversion of MathML to RDF without an explicit ontology are also
 given in the paper. Marchiori also names the possible computability as a
 ``cool functionality'' of mathematical formulas on the Semantic Web.
 
-In 2011 Lange worked on methods for the collaborative creation and
-exchange of semiformal mathematical content. The authors introduce the
+In 2011 Lange <<lange2011>> worked on methods for the collaborative 
+creation and exchange of semiformal mathematical content. The authors introduce the
 OMDoc ontology (Open Mathematical Documents) for the exchange of
 mathematical statements and theories on the internet. The ontology is
 defined in OMDoc itself since the authors state that the expressiveness
@@ -452,7 +452,7 @@ implement a wiki system called SWiM (Semantic Wiki for Mathematical
 Knowledge Management) for the collaborative work on mathematical
 documents.
 
-In 2012 Ferré proposed a lightweight RDF vocabulary for the
+In 2012 Ferré <<ferre2012>> proposed a lightweight RDF vocabulary for the
 representation of mathematical expressions mainly for the use case of
 content-based search. The vocabulary is solely based on existing RDF and
 RDFS properties and hence there is no explicit ontology. The property
@@ -488,8 +488,22 @@ developed for structural search, a language construct for binding the
 variables of a lambda function as required for computations is not
 supported.
 
-In 2014 Muñoz et al. 2014 developed an ontology for mathematical
+In 2014 Muñoz et al. <<munoz2014>>  developed an ontology for mathematical
 expressions that also supports references from mathematical models to
 elements of a domain model. However, the approach uses a highly
-proprietary vocabulary and does not consider any standards like MathML
+proprietary vocabulary and is not based on any standards like MathML
 or OpenMath.
+
+[bibliography]
+== References
+
+* [[[marchiori2003]]] MARCHIORI, Massimo: The Mathematical Semantic Web. Version: 2003. 
+In: ASPERTI, Andrea (ed.) ; BUCHBERGER, Bruno (ed.) ; DAVENPORT, James H. (ed.): Mathematical Knowledge Management Bd. 2594. Berlin, Heidelberg
+
+* [[[lange2011]]]LANGE, Christoph: Enabling Collaboration on Semiformal Mathematical Knowledge by Semantic Web Integration, Jacobs University Bremen, Diss., 2011
+
+* [[[ferre2012]]]FERRÉ, Sébastien: An RDF Vocabulary for the Representation and Exploration of Expressions with an Illustration on Mathematical Search. https://hal.inria.fr/hal-00812197. Version: 2012
+
+* [[[munoz2014]]] MUÑOZ, Edrisi ; CAPÓN-GARCÍA, Elisabet ; LAÍNEZ-AGUIRRE, José M. ; ESPUÑA, Antonio ; PUIGJANER, Luis: Using mathematical knowledge management to support integrated decision-making in the enterprise. 
+In: Computers & Chemical Engineering 66 (2014), Juli, 139-150. 
+http://dx.doi.org/10.1016/j.compchemeng.2014.
