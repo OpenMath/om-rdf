@@ -1,0 +1,2750 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="329.7406"
+   height="232.59695"
+   id="svg3815"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="openmath_ontology_new2.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.0916491"
+     inkscape:cx="167.57766"
+     inkscape:cy="114.71966"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="3000"
+     inkscape:window-height="1875"
+     inkscape:window-x="3827"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:connector-spacing="3" />
+  <defs
+     id="defs3817">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1904"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1902" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1900"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1898" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1896"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1894" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1892"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1890" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1888"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1886" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1884"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1603"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1881"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1879" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1877"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1875" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1873"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1871" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1869"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1867" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1865"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#00000f;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         id="path1863" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1858"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00000f;stroke-width:1pt;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1856" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1854"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00000f;stroke-width:1pt;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1852" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1850"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00000f;stroke-width:1pt;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1848" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1846"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00000f;stroke-width:1pt;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1844" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1842"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00000f;stroke-width:1pt;stroke-opacity:1;fill:#00000f;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1840" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4646"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4658"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-15"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-27" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-16"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-6"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-71"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-4"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-60"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-74"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-12"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-14"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-91"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-49"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-19"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-96"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-45"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-604"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-8"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-1"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-46"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-75"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-29"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-14"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-20"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-12"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2MendwN"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendwN">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000081;fill-opacity:1;fill-rule:evenodd;stroke:#000081;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4056"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2MendwNt"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendwNt">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000081;fill-opacity:1;fill-rule:evenodd;stroke:#000081;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4625"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-94"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-42"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendw-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendw">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7206-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-53"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-05"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-92"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-68"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4664-44"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata3820">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1"
+     transform="translate(-33.92558,-118.31326)">
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-9"
+       width="4.5026679"
+       height="85.314529"
+       x="44.878929"
+       y="211.08714" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-9-5"
+       width="9.099124"
+       height="67.257027"
+       x="45.045025"
+       y="241.76851" />
+    <g
+       transform="translate(-112.42663,-210.62706)"
+       id="g183-5-1"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <g
+         transform="translate(-42.506166,-15.676214)"
+         id="g185-6-5">
+        <rect
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect187-3-3"
+           width="18.907034"
+           height="4.4250503"
+           x="356.61792"
+           y="424.07822"
+           rx="0"
+           ry="4.2857141" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           x="366.25"
+           y="427.54077"
+           id="text189-9-2"><tspan
+             sodipodi:role="line"
+             id="tspan191-1-7"
+             x="366.25"
+             y="427.54077"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">subclass</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4744"
+       transform="translate(-1.9999884,4)">
+      <rect
+         ry="5.3571424"
+         rx="0"
+         y="171.54881"
+         x="329.03455"
+         height="20.88343"
+         width="23.191851"
+         id="rect4503"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text4505"
+         y="177.07301"
+         x="340.65637"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           y="177.07301"
+           x="340.65637"
+           id="tspan4507"
+           sodipodi:role="line">value</tspan><tspan
+           id="tspan4509"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="183.32301"
+           x="340.65637"
+           sodipodi:role="line">must be</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="189.57301"
+           x="340.65637"
+           sodipodi:role="line"
+           id="tspan4511">exactly 1</tspan></text>
+    </g>
+    <g
+       transform="translate(51.245201,124.96195)"
+       id="g7525-1"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <g
+         id="g7470-1"
+         transform="translate(-47.10236,-15.676214)">
+        <g
+           id="g7579"
+           transform="translate(-73.823485,-72.302669)" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none"
+       x="284.15533"
+       y="158.11447"
+       id="text171"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan173"
+         x="284.15533"
+         y="158.11447"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999">xsd:string</tspan></text>
+    <g
+       id="g175"
+       transform="translate(-41.803005,-228.12037)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         rx="4.2857141"
+         ry="4.2857141"
+         y="377.36215"
+         x="307.58295"
+         height="14.642858"
+         width="36.42857"
+         id="rect177"
+         style="color:#000000;fill:none;stroke:#999999;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         rx="4.2857141"
+         ry="4.2857141"
+         y="375.04071"
+         x="305.26151"
+         height="19.285715"
+         width="41.071426"
+         id="rect179"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <text
+       id="text150-6-6-2"
+       y="220.52431"
+       x="176.26408"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999;fill-opacity:1"
+         y="220.52431"
+         x="176.26408"
+         id="tspan152-1-6-6"
+         sodipodi:role="line">Compound</tspan></text>
+    <g
+       transform="matrix(0.88695652,0,0,1,-112.74637,-165.74715)"
+       id="g154-9-0-0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connector-avoid="true">
+      <rect
+         style="color:#000000;fill:none;stroke:#999999;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect156-8-8-0"
+         width="40.027359"
+         height="14.642858"
+         x="305.78354"
+         y="377.36215"
+         ry="4.2857141"
+         rx="4.8319325" />
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect158-7-3-5"
+         width="45.128887"
+         height="19.285715"
+         x="303.23279"
+         y="375.04071"
+         ry="4.2857141"
+         rx="4.8319325" />
+    </g>
+    <g
+       id="g3339"
+       transform="translate(-19.061973,8)">
+      <text
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         id="text3415"
+         y="335.4119"
+         x="86.826019"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="335.4119"
+           x="86.826019"
+           id="tspan3417"
+           sodipodi:role="line">Attribution</tspan></text>
+      <g
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         inkscape:connector-avoid="true"
+         transform="matrix(0.88695652,0,0,1,-202.33239,-51.416203)"
+         id="g3419">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect3421"
+           width="40.027359"
+           height="14.642858"
+           x="305.78354"
+           y="377.36215"
+           ry="4.2857141"
+           rx="4.8319325" />
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+           id="rect3423"
+           width="45.128887"
+           height="19.285715"
+           x="303.23279"
+           y="375.04071"
+           ry="4.2857141"
+           rx="4.8319325" />
+      </g>
+    </g>
+    <g
+       id="g3318"
+       transform="translate(36,8)">
+      <text
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="261.72156"
+         y="334.81863"
+         id="text3425"><tspan
+           sodipodi:role="line"
+           id="tspan3427"
+           x="261.72156"
+           y="334.81863"
+           style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Binding</tspan></text>
+      <g
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         id="g3429"
+         transform="matrix(0.88695652,0,0,1,-27.195166,-51.416203)">
+        <rect
+           rx="4.8319325"
+           ry="4.2857141"
+           y="377.36215"
+           x="305.78354"
+           height="14.642858"
+           width="40.027359"
+           id="rect3431"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <rect
+           rx="4.8319325"
+           ry="4.2857141"
+           y="375.04071"
+           x="303.23279"
+           height="19.285715"
+           width="45.128887"
+           id="rect3433"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="338.58066"
+       y="220.80902"
+       id="text3475"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan3477"
+         x="338.58066"
+         y="220.80902"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Foreign</tspan></text>
+    <g
+       id="g3479"
+       transform="matrix(0.88695652,0,0,1,49.662504,-165.42581)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="377.36215"
+         x="305.78354"
+         height="14.642858"
+         width="40.027359"
+         id="rect3481"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="375.04071"
+         x="303.23279"
+         height="19.285715"
+         width="45.128887"
+         id="rect3483"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <text
+       id="text3485"
+       y="221.04872"
+       x="230.80898"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+         y="221.04872"
+         x="230.80898"
+         id="tspan3487"
+         sodipodi:role="line">Literal</tspan></text>
+    <g
+       transform="matrix(0.88695652,0,0,1,-58.115064,-165.77936)"
+       id="g3489"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connector-avoid="true">
+      <rect
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3491"
+         width="40.027359"
+         height="14.642858"
+         x="305.78354"
+         y="377.36215"
+         ry="4.2857141"
+         rx="4.8319325" />
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3493"
+         width="45.128887"
+         height="19.285715"
+         x="303.23279"
+         y="375.04071"
+         ry="4.2857141"
+         rx="4.8319325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="117.65125"
+       y="220.45547"
+       id="text3495"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan3497"
+         x="117.65125"
+         y="220.45547"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Symbol</tspan></text>
+    <g
+       id="g3499"
+       transform="matrix(0.88695652,0,0,1,-171.38266,-165.77936)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="377.36215"
+         x="305.78354"
+         height="14.642858"
+         width="40.027359"
+         id="rect3501"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="375.04071"
+         x="303.23279"
+         height="19.285715"
+         width="45.128887"
+         id="rect3503"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    </g>
+    <text
+       id="text3505"
+       y="220.69519"
+       x="284.11578"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+         y="220.69519"
+         x="284.11578"
+         id="tspan3507"
+         sodipodi:role="line">Variable</tspan></text>
+    <g
+       transform="matrix(0.88695652,0,0,1,-4.973776,-166.13291)"
+       id="g3509"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3511"
+         width="40.027359"
+         height="14.642858"
+         x="305.78354"
+         y="377.36215"
+         ry="4.2857141"
+         rx="4.8319325" />
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3513"
+         width="45.128887"
+         height="19.285715"
+         x="303.23279"
+         y="375.04071"
+         ry="4.2857141"
+         rx="4.8319325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="176.10002"
+       y="130.30917"
+       id="text3515"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan3517"
+         x="176.10002"
+         y="130.30917"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Object</tspan></text>
+    <g
+       id="g3519"
+       transform="matrix(0.88695652,0,0,1,-112.74637,-255.92566)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="377.36215"
+         x="305.78354"
+         height="14.642858"
+         width="40.027359"
+         id="rect3521"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="375.04071"
+         x="303.23279"
+         height="19.285715"
+         width="45.128887"
+         id="rect3523"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3525"
+       d="m 176.22161,209.29356 -1e-5,-70.89279"
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1896)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g154-9-0-0"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3519"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="display:inline;opacity:0.3;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 201.46914,332.67838 -18.46836,-7.86461"
+       id="path3543"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g183-5"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;opacity:0.3;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 89.742128,337.76791 78.055122,-13.5434"
+       id="path3561"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g183-5"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3339"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;opacity:0.3;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 156.10846,332.76198 17.19739,-7.78209"
+       id="path3563"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="M 217.36767,331.62451 210.6082,318.67357"
+       id="path3577"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3871"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 228.43335,331.62451 4.23117,-6.587"
+       id="path3593"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end-point="d4" />
+    <text
+       id="text3603"
+       y="289.30151"
+       x="77.539925"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+         y="289.30151"
+         x="77.539925"
+         id="tspan3605"
+         sodipodi:role="line">AttributionPair</tspan></text>
+    <g
+       transform="matrix(1.0749798,0,0,1,-272.65183,-97.52658)"
+       id="g3607"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connector-avoid="true">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.96449465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect3609"
+         width="40.027359"
+         height="14.642858"
+         x="305.78354"
+         y="377.36215"
+         ry="4.2857141"
+         rx="3.9867857" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3611"
+         width="45.128887"
+         height="19.285715"
+         x="303.23279"
+         y="375.04071"
+         ry="4.2857141"
+         rx="3.9867857" />
+    </g>
+    <g
+       id="g3934"
+       transform="translate(-22.011723,16)"
+       inkscape:connector-avoid="true">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3585-4"
+         width="34.240395"
+         height="20.88343"
+         x="104.46514"
+         y="234.46249"
+         rx="0"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="121.52798"
+         y="239.98669"
+         id="text3587-1"><tspan
+           sodipodi:role="line"
+           id="tspan3589-3"
+           x="121.52798"
+           y="239.98669"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">attributeKey</tspan><tspan
+           sodipodi:role="line"
+           x="121.52798"
+           y="246.23669"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3591-2">must be</tspan><tspan
+           id="tspan3597-1"
+           sodipodi:role="line"
+           x="121.52798"
+           y="252.48669"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 86.919775,277.51413 4.699089,-6.16821"
+       id="path3593-4"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3607"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g3934" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 99.573616,250.46249 v -13.42414 h 20.011704 v -8.49128"
+       id="path3595-1"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g3499"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3934"
+       inkscape:connection-start-point="d4" />
+    <g
+       id="g3941"
+       transform="translate(-27.132235,16)">
+      <rect
+         ry="4.2857141"
+         rx="0"
+         y="234.46249"
+         x="72.211555"
+         height="20.88343"
+         width="36.892044"
+         id="rect3665"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text3667"
+         y="239.98669"
+         x="90.610718"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           y="239.98669"
+           x="90.610718"
+           id="tspan3669"
+           sodipodi:role="line">attributeValue</tspan><tspan
+           id="tspan3671"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="246.23669"
+           x="90.610718"
+           sodipodi:role="line">must be</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="252.48669"
+           x="90.610718"
+           sodipodi:role="line"
+           id="tspan3673">exactly 1</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3675"
+       d="m 73.678954,277.51413 -3.770612,-6.16821"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-start="#g3607"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g3941" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3677"
+       d="m 63.525345,250.46249 3e-6,-14.25427"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3941"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g154-9-0-0-7"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 143.35316,331.62451 3.73724,-6.587"
+       id="path3593-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3703"
+       d="m 123.85758,209.26135 46.09176,-70.86058"
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1892)"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g3499"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g3519"
+       inkscape:connection-end-point="d4" />
+    <g
+       transform="translate(-147.37003,-87.84716)"
+       id="g183-5"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <g
+         transform="translate(-42.506166,-15.676214)"
+         id="g185-6">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+           id="rect187-3"
+           width="18.907034"
+           height="4.4250503"
+           x="356.61792"
+           y="424.07822"
+           rx="4.2857141"
+           ry="4.2857141" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           x="366.25"
+           y="427.54077"
+           id="text189-9"><tspan
+             sodipodi:role="line"
+             id="tspan191-1"
+             x="366.25"
+             y="427.54077"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">subclass</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3884"
+       transform="translate(-25.061968,12)">
+      <rect
+         ry="4.2857141"
+         rx="4.2857141"
+         y="292.86121"
+         x="85.736359"
+         height="13.812365"
+         width="33.79845"
+         id="rect4793"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+      <text
+         id="text4795"
+         y="298.39557"
+         x="102.53722"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           y="298.39557"
+           x="102.53722"
+           id="tspan4797"
+           sodipodi:role="line">arguments</tspan><tspan
+           id="tspan4799"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="304.64557"
+           x="102.53722"
+           sodipodi:role="line">must be list of</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4801"
+       d="m 72.18863,331.62451 4.816534,-12.95094"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g3884"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4803"
+       d="m 79.012374,304.86121 -0.655119,-8.06136"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3884"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3607"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3675-3"
+       d="m 58.72304,331.62451 -4.100398,-6.09486"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end-point="d4" />
+    <g
+       id="g3325"
+       transform="translate(11.97804,8)">
+      <text
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="209.58418"
+         y="334.81863"
+         id="text150-6-6"><tspan
+           sodipodi:role="line"
+           id="tspan152-1-6"
+           x="209.58418"
+           y="334.81863"
+           style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Application</tspan></text>
+      <g
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         id="g154-9-0"
+         transform="matrix(0.88695652,0,0,1,-79.57424,-51.416203)">
+        <rect
+           rx="4.8319325"
+           ry="4.2857141"
+           y="377.36215"
+           x="305.78354"
+           height="14.642858"
+           width="40.027359"
+           id="rect156-8-8"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <rect
+           rx="4.8319325"
+           ry="4.2857141"
+           y="375.04071"
+           x="303.23279"
+           height="19.285715"
+           width="45.128887"
+           id="rect158-7-3"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+      </g>
+    </g>
+    <g
+       id="g3332"
+       transform="translate(-4,8)">
+      <text
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         id="text3465"
+         y="335.30203"
+         x="140.8213"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="335.30203"
+           x="140.8213"
+           id="tspan3467"
+           sodipodi:role="line">Error</tspan></text>
+      <g
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         transform="matrix(0.88695652,0,0,1,-147.95331,-51.416203)"
+         id="g3469">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect3471"
+           width="40.027359"
+           height="14.642858"
+           x="305.78354"
+           y="377.36215"
+           ry="4.2857141"
+           rx="4.8319325" />
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+           id="rect3473"
+           width="45.128887"
+           height="19.285715"
+           x="303.23279"
+           y="375.04071"
+           ry="4.2857141"
+           rx="4.8319325" />
+      </g>
+    </g>
+    <path
+       style="display:inline;opacity:0.3;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="M 273.68957,337.36261 184.84324,324.062"
+       id="path3543-0"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g183-5"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3318"
+       inkscape:connection-start-point="d4" />
+    <g
+       id="g3840"
+       transform="translate(28,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect5041"
+         width="24.517677"
+         height="20.88343"
+         x="249.51398"
+         y="292.15408"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="261.79871"
+         y="297.67828"
+         id="text5043"><tspan
+           sodipodi:role="line"
+           id="tspan5045"
+           x="261.79871"
+           y="297.67828"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">body</tspan><tspan
+           sodipodi:role="line"
+           x="261.79871"
+           y="303.92828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan5047">must be</tspan><tspan
+           id="tspan5049"
+           sodipodi:role="line"
+           x="261.79871"
+           y="310.17828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 296.15741,331.62451 -1.69604,-6.587"
+       id="path5051"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 132.64406,331.62451 -8.55611,-12.95094"
+       id="path3593-8-3"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3871-5"
+       inkscape:connection-end-point="d4" />
+    <g
+       id="g3834"
+       transform="translate(31.889087,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3569-4"
+         width="33.79845"
+         height="13.812365"
+         x="269.09497"
+         y="292.86121"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="285.89584"
+         y="298.40265"
+         id="text3571-0"><tspan
+           sodipodi:role="line"
+           id="tspan3573-2"
+           x="285.89584"
+           y="298.40265"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">variables</tspan><tspan
+           sodipodi:role="line"
+           x="285.89584"
+           y="304.65265"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3575-6">must be list of</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 312.43375,304.86121 v -86.31055 h -8.42587"
+       id="path3579-6"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g3509"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g3834"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 305.69271,331.62451 9.25518,-12.95094"
+       id="path3593-8-3-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g3834"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3525-4"
+       d="m 264.05868,212.37111 -15.02102,-4.65616 -29.85079,-6.08648"
+       style="display:inline;opacity:0.3;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g183-5-1"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g3509" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3525-4-3"
+       d="m 220.80351,209.26135 -7.35906,-7.06136"
+       style="display:inline;opacity:0.3;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g183-5-1"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g3489" />
+    <g
+       id="g4758"
+       transform="translate(-2,4)">
+      <rect
+         ry="5.3571424"
+         rx="0"
+         y="171.54881"
+         x="273.17319"
+         height="20.88343"
+         width="25.642044"
+         id="rect3665-4-3"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text3667-48-5"
+         y="176.98024"
+         x="286.02011"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           y="176.98024"
+           x="286.02011"
+           id="tspan3669-90-4"
+           sodipodi:role="line">name</tspan><tspan
+           id="tspan3671-2-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="183.23024"
+           x="286.02011"
+           sodipodi:role="line">must be</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="189.48024"
+           x="286.02011"
+           sodipodi:role="line"
+           id="tspan3673-71-0">exactly 1</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3675-30-6"
+       d="m 283.9942,208.9078 1e-5,-12.47556"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g3509"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g4758"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3677-5-3"
+       d="m 283.99421,175.54881 0,-9.34275"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:connection-end="#g175"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g4758"
+       inkscape:connection-start-point="d4" />
+    <g
+       id="g4751"
+       transform="translate(-6,4)">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4321"
+         width="26.892044"
+         height="20.88343"
+         x="305.05298"
+         y="171.54881"
+         rx="0"
+         ry="5.3571424" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="318.46753"
+         y="177.07301"
+         id="text4323"><tspan
+           sodipodi:role="line"
+           id="tspan4325"
+           x="318.46753"
+           y="177.07301"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">encoding</tspan><tspan
+           sodipodi:role="line"
+           x="318.46753"
+           y="183.32301"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4327">must be</tspan><tspan
+           id="tspan4329"
+           sodipodi:role="line"
+           x="318.46753"
+           y="189.57301"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="M 331.056,209.6149 320.70009,196.4311"
+       id="path4331"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3479"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g4751"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 302.66432,175.83755 -9.32955,-9.63149"
+       id="path4333"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g175"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g4751"
+       inkscape:connection-start-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none"
+       x="230.83388"
+       y="130.90242"
+       id="text171-0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan173-7"
+         x="230.83388"
+         y="130.90242"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999">rdfs:Literal</tspan></text>
+    <g
+       id="g175-4"
+       transform="translate(-94.980919,-255.92566)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         rx="4.2857141"
+         ry="4.2857141"
+         y="377.36215"
+         x="307.58295"
+         height="14.642858"
+         width="36.42857"
+         id="rect177-8"
+         style="color:#000000;fill:none;stroke:#999999;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         rx="4.2857141"
+         ry="4.2857141"
+         y="375.04071"
+         x="305.26151"
+         height="19.285715"
+         width="41.071426"
+         id="rect179-9"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g4306"
+       transform="translate(-1.9999803,-0.3183998)">
+      <text
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         id="text171-0-6"
+         y="159.06128"
+         x="340.63339"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999"
+           y="159.06128"
+           x="340.63339"
+           id="tspan173-7-2"
+           sodipodi:role="line">rdf:XMLLiteral</tspan></text>
+      <g
+         inkscape:export-ydpi="304.43018"
+         inkscape:export-xdpi="304.43018"
+         inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+         inkscape:connector-avoid="true"
+         transform="matrix(1.2191304,0,0,1,-56.55883,-227.76681)"
+         id="g175-4-3">
+        <rect
+           style="color:#000000;fill:none;stroke:#999999;stroke-width:0.9056803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect177-8-2"
+           width="36.42857"
+           height="14.642858"
+           x="307.58295"
+           y="377.36215"
+           ry="4.2857141"
+           rx="3.5153861" />
+        <rect
+           style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect179-9-1"
+           width="41.071426"
+           height="19.285715"
+           x="305.26151"
+           y="375.04071"
+           ry="4.2857141"
+           rx="3.5153861" />
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3525-4-7"
+       d="m 313.3194,150.06237 -61.96739,-16.0016"
+       style="display:inline;opacity:0.3;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1904)"
+       inkscape:connection-end="#g175-4"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g4306"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="display:inline;opacity:0.3;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1884)"
+       d="m 266.14084,147.22815 -17.47117,-9.1352"
+       id="path4468"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g175-4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g175"
+       inkscape:connection-start-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4513"
+       d="m 338.63048,209.6149 0,-13.18266"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-start="#g3479"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g4744"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4515"
+       d="m 338.63048,175.54881 0,-9.30759"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g4744"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4306"
+       inkscape:connection-end-point="d4" />
+    <g
+       id="g4765"
+       transform="translate(-0.0366135,4)">
+      <rect
+         ry="5.3571424"
+         rx="0"
+         y="171.54881"
+         x="218.34439"
+         height="20.88343"
+         width="25.017044"
+         id="rect4503-5"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text4505-4"
+         y="177.07301"
+         x="230.87881"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           y="177.07301"
+           x="230.87881"
+           id="tspan4507-7"
+           sodipodi:role="line">value</tspan><tspan
+           id="tspan4509-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="183.32301"
+           x="230.87881"
+           sodipodi:role="line">must be</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           y="189.57301"
+           x="230.87881"
+           sodipodi:role="line"
+           id="tspan4511-3">exactly 1</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4513-6"
+       d="m 230.84219,209.26135 -0.0143,-12.82911"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:connection-start="#g3489"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g4765"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4515-7"
+       d="m 230.8163,175.54881 0,-37.14804"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g175-4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g4765"
+       inkscape:connection-start-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3557-3"
+       d="M 210.05405,197.77494 180.94857,138.40077"
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1888)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g183-5-1"
+       inkscape:connection-end="#g3519"
+       inkscape:connection-end-point="d4" />
+    <g
+       id="g3871"
+       transform="translate(28.808432,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3569"
+         width="33.79845"
+         height="13.812365"
+         x="159.29601"
+         y="292.86121"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="176.09688"
+         y="298.39557"
+         id="text3571"><tspan
+           sodipodi:role="line"
+           id="tspan3573"
+           x="176.09688"
+           y="298.39557"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">arguments</tspan><tspan
+           sodipodi:role="line"
+           x="176.09688"
+           y="304.64557"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3575">must be list of</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="M 212.89435,264.28325 178.83094,138.40077"
+       id="path3579-6-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3519"
+       inkscape:connection-start="#rect1495" />
+    <g
+       id="g3847"
+       transform="translate(26,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect5041-2"
+         width="24.517677"
+         height="20.88343"
+         x="226.43279"
+         y="292.15408"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="238.71753"
+         y="297.67828"
+         id="text5043-2"><tspan
+           sodipodi:role="line"
+           id="tspan5045-8"
+           x="238.71753"
+           y="297.67828"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">binder</tspan><tspan
+           sodipodi:role="line"
+           x="238.71753"
+           y="303.92828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan5047-5">must be</tspan><tspan
+           id="tspan5049-5"
+           sodipodi:role="line"
+           x="238.71753"
+           y="310.17828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <g
+       id="g3864"
+       transform="translate(28.000006,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3691"
+         width="24.392044"
+         height="20.88343"
+         x="197.17575"
+         y="292.15408"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="209.29733"
+         y="297.6712"
+         id="text3693"><tspan
+           sodipodi:role="line"
+           id="tspan3695"
+           x="209.29733"
+           y="297.6712"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">operator</tspan><tspan
+           sodipodi:role="line"
+           x="209.29733"
+           y="303.9212"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3697">must be</tspan><tspan
+           id="tspan3699"
+           sodipodi:role="line"
+           x="209.29733"
+           y="310.1712"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="86.525726"
+       y="158.05167"
+       id="text3495-3"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan3497-0"
+         x="86.525726"
+         y="158.05167"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">Reference</tspan></text>
+    <g
+       id="g3499-1"
+       transform="matrix(0.88695652,0,0,1,-202.33239,-228.12037)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="377.36215"
+         x="305.78354"
+         height="14.642858"
+         width="40.027359"
+         id="rect3501-1"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.0618149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <rect
+         rx="4.8319325"
+         ry="4.2857141"
+         y="375.04071"
+         x="303.23279"
+         height="19.285715"
+         width="45.128887"
+         id="rect3503-4"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    </g>
+    <g
+       id="g4772"
+       transform="translate(-4,0)">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6122-7"
+         width="24.392044"
+         height="20.88343"
+         x="107.17845"
+         y="118.31326"
+         rx="0"
+         ry="5.3571424" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="119.40036"
+         y="123.83038"
+         id="text6124-5"><tspan
+           sodipodi:role="line"
+           id="tspan6126-5"
+           x="119.40036"
+           y="123.83038"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">target</tspan><tspan
+           sodipodi:role="line"
+           x="119.40036"
+           y="130.08038"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan6128-2">must be</tspan><tspan
+           id="tspan6130-9"
+           sodipodi:role="line"
+           x="119.40036"
+           y="136.33038"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3675-3-1"
+       d="m 97.907641,146.92034 8.054739,-8.37687"
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g3499-1"
+       inkscape:connection-end="#g4772"
+       inkscape:connection-end-point="d4" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3677-2-8"
+       d="m 127.5705,128.75557 28.63743,0.001"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g3519"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start="#g4772"
+       inkscape:connection-start-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 312.499,185.99053 v 0"
+       id="path4779"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4751"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4751"
+       inkscape:connection-end-point="d4" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018"
+       width="14.680537"
+       height="2.2500007"
+       x="194.43507"
+       y="257.37802" />
+    <g
+       id="g3871-5"
+       transform="translate(-54.669886,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3569-2"
+         width="33.79845"
+         height="13.812365"
+         x="159.29601"
+         y="292.86121"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="176.09688"
+         y="298.39557"
+         id="text3571-9"><tspan
+           sodipodi:role="line"
+           id="tspan3573-5"
+           x="176.09688"
+           y="298.39557"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">arguments</tspan><tspan
+           sodipodi:role="line"
+           x="176.09688"
+           y="304.64557"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3575-8">must be list of</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none"
+       x="65.342247"
+       y="220.53899"
+       id="text3475-9"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"><tspan
+         sodipodi:role="line"
+         id="tspan3477-4"
+         x="66.174278"
+         y="220.53899"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999;fill-opacity:1">Object or </tspan><tspan
+         sodipodi:role="line"
+         x="65.342247"
+         y="228.03899"
+         style="font-size:6px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#999999;fill-opacity:1"
+         id="tspan3300">Foreign</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3677-8"
+       d="M 121.47534,242.29531 83.297133,228.94793"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g154-9-0-0-7"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start="#rect1495-1" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path3525-4-7-3"
+       d="m 176.1958,320.55484 0.0234,-91.97556"
+       style="display:inline;opacity:0.3;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#marker1900)"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start="#g183-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g154-9-0-0"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="M 43.342477,198.01767 158.57936,137.95346"
+       id="path3595-1-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start="#rect1476"
+       inkscape:connection-end="#g3519" />
+    <g
+       id="g3877-6"
+       transform="translate(-97.35422,12.707123)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3585-9"
+         width="23.633793"
+         height="20.88343"
+         x="129.2798"
+         y="292.15408"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="141.12257"
+         y="297.67828"
+         id="text3587-8"><tspan
+           sodipodi:role="line"
+           id="tspan3589-1"
+           x="141.12257"
+           y="297.67828"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">target</tspan><tspan
+           sodipodi:role="line"
+           x="141.12257"
+           y="303.92828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3591-0">must be</tspan><tspan
+           id="tspan3597-5"
+           sodipodi:role="line"
+           x="141.12257"
+           y="310.17828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#00000f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 287.08953,331.62451 -10.62962,-8.87389"
+       id="path5051-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3847"
+       inkscape:connection-end-point="d4" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-0"
+       width="36.677864"
+       height="19.322554"
+       x="265.71286"
+       y="262.72604"
+       inkscape:connector-avoid="true" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="M 145.40346,304.15408 V 218.90421 H 137.599"
+       id="path3595-1-8"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018"
+       inkscape:connection-end="#g3499"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start="#g3877"
+       inkscape:connection-start-point="d4" />
+    <g
+       id="g3877"
+       transform="translate(9.917975,12)">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3585"
+         width="23.633793"
+         height="20.88343"
+         x="129.2798"
+         y="292.15408"
+         rx="4.2857141"
+         ry="4.2857141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="141.12257"
+         y="297.67828"
+         id="text3587"><tspan
+           sodipodi:role="line"
+           id="tspan3589"
+           x="141.12257"
+           y="297.67828"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold'">symbol</tspan><tspan
+           sodipodi:role="line"
+           x="141.12257"
+           y="303.92828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan3591">must be</tspan><tspan
+           id="tspan3597"
+           sodipodi:role="line"
+           x="141.12257"
+           y="310.17828"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial">exactly 1</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-00"
+       width="58.67519"
+       height="2.2500007"
+       x="215.74313"
+       y="251.26231" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-9-3-5"
+       width="4.5026679"
+       height="16.596321"
+       x="89.606583"
+       y="227.76543" />
+    <g
+       transform="matrix(0.7876012,0,0,1.3972449,-191.07294,-314.76237)"
+       id="g154-9-0-0-7"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-ydpi="304.43018">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#999999;stroke-width:0.95325816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect156-8-8-0-2"
+         width="40.027359"
+         height="14.642858"
+         x="305.78354"
+         y="377.36215"
+         ry="3.0672605"
+         rx="5.4414768" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect158-7-3-5-4"
+         width="45.128887"
+         height="19.285715"
+         x="303.23279"
+         y="375.04071"
+         ry="3.0672605"
+         rx="5.4414768" />
+    </g>
+    <rect
+       y="197.99373"
+       x="43.242477"
+       height="0.1"
+       width="0.1"
+       id="rect1476"
+       style="fill:#a6a6a6;fill-opacity:0.23529412;stroke:none;stroke-width:7.55905581;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478"
+       d="M 43.702558,304.86121 43.294389,198.09373"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-end="#rect1476"
+       inkscape:connection-start="#g3877-6" />
+    <rect
+       style="fill:#a6a6a6;fill-opacity:0.23529412;stroke:none;stroke-width:0.70000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1495"
+       width="0.1"
+       height="0.1"
+       x="-214.94435"
+       y="264.23325"
+       transform="scale(-1,1)" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478-3"
+       d="m 206.1513,304.86121 6.74305,-40.57796"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-start="#g3871"
+       inkscape:connection-end="#rect1495" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478-3-1"
+       d="M 232.29181,304.15408 212.89435,264.28325"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-start="#g3864"
+       inkscape:connection-end="#rect1495" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478-3-1-8"
+       d="M 254.54612,304.74111 212.89435,264.28325"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-start="#g3847"
+       inkscape:connection-end="#rect1495" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478-3-1-8-7"
+       d="M 277.84174,306.78759 212.89435,264.28325"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-start="#g3840"
+       inkscape:connection-end="#rect1495" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect5018-0-7"
+       width="36.677864"
+       height="19.322554"
+       x="322.47678"
+       y="263.47665"
+       inkscape:connector-avoid="true" />
+    <path
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:export-ydpi="304.43018"
+       inkscape:export-xdpi="304.43018"
+       inkscape:export-filename="/mnt/D_DRIVE/openmath_ontology.png"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path1478-3-16"
+       d="m 121.42082,304.86121 -0.94664,-62.54842"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+       inkscape:connection-end="#rect1495-1"
+       inkscape:connection-start="#g3871-5" />
+    <rect
+       style="fill:#a6a6a6;fill-opacity:0.23529412;stroke:none;stroke-width:0.70000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1495-1"
+       width="0.1"
+       height="0.1"
+       x="121.47534"
+       y="-242.36279"
+       transform="scale(1,-1)" />
+  </g>
+</svg>
