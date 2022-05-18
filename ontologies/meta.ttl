@@ -1,0 +1,83 @@
+# baseURI: http://openmath.org/vocab/math/meta
+# imports: http://openmath.org/vocab/math
+
+@prefix : <http://openmath.org/vocab/math/meta#> .
+@prefix math: <http://numerateweb.org/vocab/math#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+math:Object
+  rdf:type owl:Class ;
+.
+math:Symbol
+  rdf:type owl:Class ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom math:Object ;
+      owl:onProperty :example ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom math:Object ;
+      owl:onProperty :formalProperty ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Library ;
+      owl:onProperty rdfs:isDefinedBy ;
+    ] ;
+.
+<http://openmath.org/vocab/math/meta>
+  rdf:type owl:Ontology ;
+  owl:imports <http://openmath.org/vocab/math> ;
+.
+:ApplicationSymbol
+  rdf:type owl:Class ;
+  rdfs:comment "The symbol may appear as the first child of an OpenMath application object." ;
+  rdfs:subClassOf math:Symbol ;
+.
+:AttributionSymbol
+  rdf:type owl:Class ;
+  rdfs:comment """The symbol may be used as key in an OpenMath attribution object, i.e. as the first element of a (key, value) pair, or in an equivalent context (for example to refer to the value of an attribution).  This form of attribution
+may be ignored by an application, so should be used for information which does not change the meaning of the attributed OpenMath object.""" ;
+  rdfs:subClassOf math:Symbol ;
+.
+:BinderSymbol
+  rdf:type owl:Class ;
+  rdfs:comment """The symbol may appear as the first child of an OpenMath binding object.""" ;
+  rdfs:subClassOf math:Symbol ;
+.
+:ConstantSymbol
+  rdf:type owl:Class ;
+  rdfs:comment """The symbol cannot be used to construct an OpenMath compound object.""" ;
+  rdfs:subClassOf math:Symbol ;
+.
+:ErrorSymbol
+  rdf:type owl:Class ;
+  rdfs:comment "The symbol may appear as the first child of an OpenMath error object." ;
+  rdfs:subClassOf math:Symbol ;
+.
+:Library
+  rdf:type owl:Class ;
+  rdfs:comment "Represents a collection of related OpenMath symbols." ;
+.
+:SemanticAttributionSymbol
+  rdf:type owl:Class ;
+  rdfs:comment "This is the same as attribution except that it modifies the meaning of the attributed OpenMath object and thus cannot be ignored by an application, without changing the meaning." ;
+  rdfs:subClassOf math:Symbol ;
+.
+:commentedProperty
+  rdf:type owl:DatatypeProperty ;
+.
+:description
+  rdf:type owl:DatatypeProperty ;
+.
+:example
+  rdf:type owl:ObjectProperty ;
+.
+:formalProperty
+  rdf:type owl:ObjectProperty ;
+.

@@ -1,0 +1,381 @@
+# baseURI: http://openmath.org/vocab/math
+
+@prefix : <http://openmath.org/vocab/math#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://openmath.org/vocab/math>
+  rdf:type owl:Ontology ;
+.
+:Application
+  rdf:type owl:Class ;
+  rdfs:comment "Constructs an OpenMath object from a sequence of one or more OpenMath objects. The first child of an application is referred to as its \"head\" while the remaining objects are called its \"arguments\".  An OpenMath application object can be used to convey the mathematical notion of application of a function to a set of arguments." ;
+  rdfs:subClassOf :Compound ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :operator ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :ObjectList ;
+      owl:onProperty :arguments ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:int ;
+      owl:onProperty :operator ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :arguments ;
+    ] ;
+.
+:Attribution
+  rdf:type owl:Class ;
+  rdfs:comment """Decorates an object with a sequence of one or more pairs made up of an OpenMath symbol, the \"attribute\", and an associated  object, the \"value of the attribute\". The value of the attribute can be an OpenMath attribution object itself. As an example of this, consider the OpenMath objects representing groups, automorphism groups, and group dimensions. It is then possible to attribute an OpenMath object representing a group by its automorphism group, itself attributed by its dimension.
+
+OpenMath objects can be attributed with OpenMath foreign objects, which are containers for non-OpenMath structures. For example a mathematical expression could be attributed with its spoken or visual rendering.""" ;
+  rdfs:subClassOf :Compound ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :AttributionList ;
+      owl:onProperty :arguments ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :target ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :target ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :arguments ;
+    ] ;
+.
+:AttributionList
+  rdf:type rdfs:Class ;
+  rdfs:comment "A list of attribute-value pairs." ;
+  rdfs:subClassOf rdf:List ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :AttributionPair ;
+      owl:onProperty rdf:first ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty rdf:first ;
+    ] ;
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty rdf:first ;
+            owl:someValuesFrom :AttributionPair ;
+          ]
+          [
+            rdf:type owl:Class ;
+            owl:unionOf (
+                [
+                  rdf:type owl:Restriction ;
+                  owl:onProperty rdf:rest ;
+                  owl:someValuesFrom :AttributionList ;
+                ]
+                [
+                  rdf:type owl:Restriction ;
+                  owl:hasValue () ;
+                  owl:onProperty rdf:rest ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+.
+:AttributionPair
+  rdf:type owl:Class ;
+  rdfs:comment "Maps an attribute key to the corresponding attribute value." ;
+  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :attributeValue ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Symbol ;
+      owl:onProperty :attributeKey ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :attributeKey ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :attributeValue ;
+    ] ;
+.
+:Binding
+  rdf:type owl:Class ;
+  rdfs:comment "A variable binding that is constructed from an OpenMath object, and from a sequence of zero or more variables followed by another OpenMath object.  The binding consits of a \"binder\" object, the \"body\" and the \"variables\" to be bound in the \"body\". It is allowed to have no bound variables, but the binder object and the body should be present. Binding can be used to express functions or logical statements." ;
+  rdfs:subClassOf :Compound ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :binder ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :body ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :VariableList ;
+      owl:onProperty :variables ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :binder ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :body ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :variables ;
+    ] ;
+.
+:Compound
+  rdf:type owl:Class ;
+  rdfs:comment "An object that is composed of some other mathematical objects." ;
+  rdfs:subClassOf :Object ;
+.
+:Error
+  rdf:type owl:Class ;
+  rdfs:comment "Represents error objects which are made up of an OpenMath symbol and a sequence of zero or more OpenMath objects. This object has no direct mathematical meaning.  Errors occur as the result of some treatment on an OpenMath object and are thus of real interest only when some sort of communication is taking place. Errors may occur inside other objects and also inside other errors. Error objects might consist only of a symbol as in the object: error (S)." ;
+  rdfs:subClassOf :Compound ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :ObjectList ;
+      owl:onProperty :arguments ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Symbol ;
+      owl:onProperty :symbol ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :symbol ;
+    ] ;
+.
+:Foreign
+  rdf:type owl:Class ;
+  rdfs:comment "A non-OpenMath object within an OpenMath attribution. Examples of its use could be to annotate a formula with a visual or aural rendering, an animation, etc. They may also appear in OpenMath error objects, for example to allow an application to report an error in processing such an object." ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom rdf:XMLLiteral ;
+      owl:onProperty :value ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom xsd:string ;
+      owl:onProperty :encoding ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :encoding ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :value ;
+    ] ;
+.
+:Literal
+  rdf:type owl:Class ;
+  rdfs:comment "An OpenMath literal (integer, float, character string, bytearray)." ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :value ;
+    ] ;
+.
+:Object
+  rdf:type owl:Class ;
+  rdfs:comment "Component of a mathematical expression." ;
+  rdfs:subClassOf owl:Thing ;
+.
+:ObjectList
+  rdf:type rdfs:Class ;
+  rdfs:comment "A list of mathematical objects." ;
+  rdfs:subClassOf rdf:List ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty rdf:first ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty rdf:first ;
+    ] ;
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty rdf:first ;
+            owl:someValuesFrom :Object ;
+          ]
+          [
+            rdf:type owl:Class ;
+            owl:unionOf (
+                [
+                  rdf:type owl:Restriction ;
+                  owl:onProperty rdf:rest ;
+                  owl:someValuesFrom :ObjectList ;
+                ]
+                [
+                  rdf:type owl:Restriction ;
+                  owl:hasValue () ;
+                  owl:onProperty rdf:rest ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+.
+:Reference
+  rdf:type owl:Class ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Object ;
+      owl:onProperty :target ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:int ;
+      owl:onProperty :target ;
+    ] ;
+.
+:Symbol
+  rdf:type owl:Class ;
+  rdfs:comment "Symbols are uniquely defined by the Content Dictionary in which they occur and by a name. Each symbol has no more than one definition in a Content Dictionary. Many Content Dictionaries may define differently a symbol with the same name (e.g. the symbol union is defined as associative-commutative set theoretic union in a Content Dictionary set1 but another Content Dictionary, multiset1 might define a symbol union as the union of multi-sets)." ;
+  rdfs:subClassOf :Object ;
+.
+:Variable
+  rdf:type owl:Class ;
+  rdfs:comment "Denote parameters, variables or indeterminates (such as bound variables of function definitions, variables in summations and integrals, independent variables of derivatives)." ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom xsd:string ;
+      owl:onProperty :name ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :name ;
+    ] ;
+.
+:VariableList
+  rdf:type rdfs:Class ;
+  rdfs:comment "A list of variables." ;
+  rdfs:subClassOf rdf:List ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Variable ;
+      owl:onProperty rdf:first ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty rdf:first ;
+    ] ;
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty rdf:first ;
+            owl:someValuesFrom :Variable ;
+          ]
+          [
+            rdf:type owl:Class ;
+            owl:unionOf (
+                [
+                  rdf:type owl:Restriction ;
+                  owl:onProperty rdf:rest ;
+                  owl:someValuesFrom :Variable ;
+                ]
+                [
+                  rdf:type owl:Restriction ;
+                  owl:hasValue () ;
+                  owl:onProperty rdf:rest ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+.
+:arguments
+  rdf:type owl:ObjectProperty ;
+.
+:attributeKey
+  rdf:type owl:ObjectProperty ;
+.
+:attributeValue
+  rdf:type owl:ObjectProperty ;
+.
+:binder
+  rdf:type owl:ObjectProperty ;
+.
+:body
+  rdf:type owl:ObjectProperty ;
+.
+:encoding
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Specifies the encoding of a foreign object." ;
+.
+:name
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Represents the name of a variable." ;
+.
+:operator
+  rdf:type owl:ObjectProperty ;
+.
+:symbol
+  rdf:type owl:ObjectProperty ;
+.
+:target
+  rdf:type owl:ObjectProperty ;
+.
+:value
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Represents the value of a literal or a foreign object." ;
+.
+:variables
+  rdf:type owl:ObjectProperty ;
+.
