@@ -1,3 +1,10 @@
 = Welcome to the OpenMath-RDF repository.
 
 This repository contains documents and examples regarding a proposed RDF serialization for OpenMath objects and Content Dictionaries.
+
+The specification is currently work in progress and can be found at: https://openmath.org/om-rdf/
+
+This repository is structured as follows:
+
+docs/:: Contains the AsciiDoc sources and images for the specification of OpenMath-RDF.
+ontologies/:: Contains the RDF vocabulary for OpenMath objects `math.ttl` and Content Dictionaries `meta.ttl` in Turtle format.
