@@ -443,8 +443,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#abstract">Abstract</a></li>
-<li><a href="#introduction">Introduction</a></li>
 <li><a href="#ontology-for-openmath-objects">Ontology for OpenMath objects</a>
 <ul class="sectlevel2">
 <li><a href="#basic-openmath-objects">Basic OpenMath objects</a></li>
@@ -456,103 +454,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#transformation-between-openmath-xml-and-openmath-rdf">Transformation between OpenMath-XML and OpenMath-RDF</a></li>
 <li><a href="#query-openmath-with-sparql">Query OpenMath with SPARQL</a></li>
 <li><a href="#representation-of-content-dictionaries-in-rdf">Representation of Content Dictionaries in RDF</a></li>
-<li><a href="#discussion-and-future-work">Discussion and future work</a></li>
+<li><a href="#related-work">Related work</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="abstract"><a class="anchor" href="#abstract"></a>Abstract</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This paper presents RDF encodings for OpenMath objects and Content
+<p>This document specifies RDF encodings for OpenMath objects and Content
 Dictionaries that allow mathematical objects and symbol definitions to
 be first-class citizens on the Web of Data.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="introduction"><a class="anchor" href="#introduction"></a>Introduction</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In 2003 Marchiori outlined the idea and possible applications of
-representing mathematical expressions as part of the Semantic Web.
-Advantages are seen in an RDF representation that enables the reuse of
-Semantic Web languages and tools to support functions like search,
-annotation or inference on mathematical knowledge. Basic ideas for a
-direct conversion of MathML to RDF without an explicit ontology are also
-given in the paper. Marchiori also names the possible computability as a
-``cool functionality'' of mathematical formulas on the Semantic Web.</p>
-</div>
-<div class="paragraph">
-<p>In 2011 Lange worked on methods for the collaborative creation and
-exchange of semiformal mathematical content. The authors introduce the
-OMDoc ontology (Open Mathematical Documents) for the exchange of
-mathematical statements and theories on the internet. The ontology is
-defined in OMDoc itself since the authors state that the expressiveness
-of OWL is insuffient for the representation of all aspects of OMDoc.
-Additional to OMDoc an OWL based ontology for the description of
-OpenMath Content Dictionaries is introduced. It is able to represent
-metadata about symbols and their usage within mathematical expressions
-but not the expressions themselves. Both ontologies are used to
-implement a wiki system called SWiM (Semantic Wiki for Mathematical
-Knowledge Management) for the collaborative work on mathematical
-documents.</p>
-</div>
-<div class="paragraph">
-<p>In 2012 Ferré proposed a lightweight RDF vocabulary for the
-representation of mathematical expressions mainly for the use case of
-content-based search. The vocabulary is solely based on existing RDF and
-RDFS properties and hence there is no explicit ontology. The property
-<code>rdf:type</code> is used as constructor of mathematical operations where each
-object is an instance of <code>rdfs:Container</code> and the properties rdf:_1,
-rdf:_2, …, rdf:_n are used to represent its arguments.</p>
-</div>
-<div class="paragraph">
-<p>For example, the expression \((a + 2 ) * 3\) would be
-represented as</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="turtle">[ a math:Times ;
-  rdf:_1 [ a math:Plus ; rdf:_1 _:a ; rdf:_2 2 ] ; rdf:_2 3 ] .
-_:a rdfs:label &quot;a&quot; .</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>in Turtle format.</p>
-</div>
-<div class="paragraph">
-<p>The syntax is comparable to the notation used by the programming
-language Lisp that may represent the expression as</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code>(math:Times (math:Plus a 2) 3)</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Due to the missing ontology, semantics of the RDF representation is
-limited, for example, constants and variables are only implicitly
-distinguishable based on their node kind (constants are RDF literals and
-variables are blank nodes with a label). Since the representation was
-developed for structural search, a language construct for binding the
-variables of a lambda function as required for computations is not
-supported.</p>
-</div>
-<div class="paragraph">
-<p>In 2014 Muñoz et al. 2014 developed an ontology for mathematical
-expressions that also supports references from mathematical models to
-elements of a domain model. However, the approach uses a highly
-proprietary vocabulary and does not consider any standards like MathML
-or OpenMath.</p>
-</div>
-<div class="paragraph">
-<p>This paper builds on the previous work of Wenzel and Reinhardt that
-already introduced a basic ontology for OpenMath and a concept for
-mathematical computations on RDF graphs. This ontology is extended and
-the mapping between OpenMath-XML and OpenMath-RDF formalized.
-Furthermore an RDF encoding for Content Dictionaries is presented.</p>
 </div>
 </div>
 </div>
@@ -560,11 +472,11 @@ Furthermore an RDF encoding for Content Dictionaries is presented.</p>
 <h2 id="ontology-for-openmath-objects"><a class="anchor" href="#ontology-for-openmath-objects"></a>Ontology for OpenMath objects</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The RDF data model for OpenMath objects can be specified as an OWL
-ontology as denoted by Figure #fig:openmath-ontologie[1].</p>
+<p>The RDF data model for OpenMath objects is specified as  <a href="#img-openmath-ontology">an OWL ontology</a>.</p>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="./images/openmath_ontology_bw" alt="Ontology of OpenMath objects"></span></p>
+<div id="img-openmath-ontology" class="paragraph">
+<div class="title">Ontology of OpenMath objects</div>
+<p><span class="image"><img src="./images/openmath_ontology.svg" alt="Ontology of OpenMath objects" width="600"></span></p>
 </div>
 <div class="paragraph">
 <p>The ontology was developed by starting with the OpenMath XML
@@ -608,7 +520,7 @@ hexadecimal literals is required then custom RDF datatypes can be used.</p>
 </div>
 <div class="paragraph">
 <p>Variables are represented as instances of class <code>:Variable</code> with a
-property <code>:name</code>. The variable \(x\) can, for example, be
+property <code>:name</code>. The variable <em>x</em> can, for example, be
 represented as:</p>
 </div>
 <div class="listingblock">
@@ -692,13 +604,14 @@ objects multiple names and to use the references as some kind of
 symbolic links as known by typical file systems.</p>
 </div>
 <div class="paragraph">
-<p>The function \(f(x) = x^2\) is mainly represented as RDF node
+<p>The function <em>f(x) = x^2</em> is mainly represented as RDF node
 with the URI <code><a href="http://example.org/square-func" class="bare">http://example.org/square-func</a></code>
-(Listing #lst:openmath-rdf-referenzen<a id="lst:openmath-rdf-referenzen"></a>).
+(<a href="#lst:openmath-rdf-references">Example: Reference to a function</a>).
 By using a named reference the function is also available via the URI
 <code><a href="http://example.org/power-2" class="bare">http://example.org/power-2</a></code>.</p>
 </div>
-<div class="listingblock">
+<div id="lst:openmath-rdf-references" class="listingblock">
+<div class="title">Example: Reference to a function</div>
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="turtle">@base &lt;http://example.org/&gt; .
 @prefix : &lt;http://numerateweb.org/vocab/math#&gt; .
@@ -777,7 +690,7 @@ identifiers.</p>
 Turtle document then the resolution of URIs is not necessary since the
 Turtle parser resolves URIs automatically against a base URI according
 to sections 6.3 "IRI References" and 7. "Parsing" of the Turtle
-specification . This base URI has to be specified in accordance to the
+specification. This base URI has to be specified in accordance to the
 source OpenMath-XML document.</p>
 </div>
 <div class="paragraph">
@@ -1041,7 +954,7 @@ absolute URIs.</p>
 <h2 id="query-openmath-with-sparql"><a class="anchor" href="#query-openmath-with-sparql"></a>Query OpenMath with SPARQL</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>OpenMath-RDF allows to use SPARQL  as query language to traverse, filter
+<p>OpenMath-RDF allows to use SPARQL as query language to traverse, filter
 and transform mathematical objects. With SPARQL 1.1 it is also possible
 to use path expressions for recursive traversals.</p>
 </div>
@@ -1097,9 +1010,11 @@ able to properly optimize the queries.</p>
 <div class="paragraph">
 <p>OpenMath Content Dictionaries are usually encoded as XML documents. In
 combination with the RDF encoding introduced in the previous sections
-Content Dictionaries may also be represented as linked data.
-Figure #fig:umsetzung-meta-ontologie<a id="fig:umsetzung-meta-ontologie"></a>
-depicts an ontology to represent the relevant elements.</p>
+Content Dictionaries may also be represented as linked data.</p>
+</div>
+<div id="img-openmath-ontology" class="paragraph">
+<div class="title">Ontology of OpenMath Content Dictionaries</div>
+<p><span class="image"><img src="./images/openmath_meta_ontology.svg" alt="Ontology of OpenMath Content Dictionaries" width="500"></span></p>
 </div>
 <div class="paragraph">
 <p>The core of the vocabulary are classes for different types of
@@ -1115,52 +1030,83 @@ OpenMath-RDF ontology.</p>
 ontology 214 Content Dictionaries with 1578 symbols published on the
 OpenMath web site were converted to an RDF representation<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup>.</p>
 </div>
-<div class="paragraph">
-<p>As an example for leveraging the RDF representation of mathematical
-objects for knowledge management, a catalogue application for Content
-Dictionaries was developed. This web application is based on the
-software platform <em>eniLINK</em><sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> and allows to browse Content Dictionaries and the
-contained symbols. Figure #fig:enilink-symbols[2] shows a screenshot for
-the symbol <code>arith1:times</code>. The mathematical expressions are rendered as
-Presentation MathML and as a modified version of the POPCORN syntax
-that is compatible with OpenMath-RDF.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="./images/nw_enilink_symbols" alt="Presentation of symbol <code>arith1:times</code> in the web application"></span></p>
-</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="discussion-and-future-work"><a class="anchor" href="#discussion-and-future-work"></a>Discussion and future work</h2>
+<h2 id="related-work"><a class="anchor" href="#related-work"></a>Related work</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>We have presented RDF encodings for OpenMath objects and Content
-Dictionaries. These enable the integration of standardized mathematical
-expressions into RDF-based knowledge graphs. Therefore RDF databases and
-query engines can be used for storing, querying and transforming
-OpenMath-based content.</p>
+<p>In 2003 Marchiori outlined the idea and possible applications of
+representing mathematical expressions as part of the Semantic Web.
+Advantages are seen in an RDF representation that enables the reuse of
+Semantic Web languages and tools to support functions like search,
+annotation or inference on mathematical knowledge. Basic ideas for a
+direct conversion of MathML to RDF without an explicit ontology are also
+given in the paper. Marchiori also names the possible computability as a
+``cool functionality'' of mathematical formulas on the Semantic Web.</p>
 </div>
 <div class="paragraph">
-<p>Although the developed vocabularies provide a starting point for
-integrating OpenMath and the Web of Data some open questions should be
-addressed.</p>
+<p>In 2011 Lange worked on methods for the collaborative creation and
+exchange of semiformal mathematical content. The authors introduce the
+OMDoc ontology (Open Mathematical Documents) for the exchange of
+mathematical statements and theories on the internet. The ontology is
+defined in OMDoc itself since the authors state that the expressiveness
+of OWL is insuffient for the representation of all aspects of OMDoc.
+Additional to OMDoc an OWL based ontology for the description of
+OpenMath Content Dictionaries is introduced. It is able to represent
+metadata about symbols and their usage within mathematical expressions
+but not the expressions themselves. Both ontologies are used to
+implement a wiki system called SWiM (Semantic Wiki for Mathematical
+Knowledge Management) for the collaborative work on mathematical
+documents.</p>
 </div>
 <div class="paragraph">
-<p>The ontologies use speaking names for object types instead of acronyms
-as used by the XML and JSON encodings. This increases the readability of
-the defined terms and resembles the usual style of ontologies but breaks
-with the typical terminology of OpenMath.</p>
+<p>In 2012 Ferré proposed a lightweight RDF vocabulary for the
+representation of mathematical expressions mainly for the use case of
+content-based search. The vocabulary is solely based on existing RDF and
+RDFS properties and hence there is no explicit ontology. The property
+<code>rdf:type</code> is used as constructor of mathematical operations where each
+object is an instance of <code>rdfs:Container</code> and the properties rdf:_1,
+rdf:_2, …, rdf:_n are used to represent its arguments.</p>
 </div>
 <div class="paragraph">
-<p>The representation of literals does currently not support hexadecimal
-encodings. It should be investigated if hexadecimal representations are
-necessary and if corresponding RDF datatypes should be defined.</p>
+<p>For example, the expression <em>(a + 2 ) * 3</em> would be
+represented as</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="turtle">[ a math:Times ;
+  rdf:_1 [ a math:Plus ; rdf:_1 _:a ; rdf:_2 2 ] ; rdf:_2 3 ] .
+_:a rdfs:label &quot;a&quot; .</code></pre>
+</div>
 </div>
 <div class="paragraph">
-<p>The RDF encoding of Content Dictionaries introduces the term <code>Library</code>
-and also reuses RDF vocabulary like <code>rdfs:definedBy</code>. It should be
-investigated if the encoding should be more closely aligned with the
-existing XML representation.</p>
+<p>in Turtle format.</p>
+</div>
+<div class="paragraph">
+<p>The syntax is comparable to the notation used by the programming
+language Lisp that may represent the expression as</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code>(math:Times (math:Plus a 2) 3)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Due to the missing ontology, semantics of the RDF representation is
+limited, for example, constants and variables are only implicitly
+distinguishable based on their node kind (constants are RDF literals and
+variables are blank nodes with a label). Since the representation was
+developed for structural search, a language construct for binding the
+variables of a lambda function as required for computations is not
+supported.</p>
+</div>
+<div class="paragraph">
+<p>In 2014 Muñoz et al. 2014 developed an ontology for mathematical
+expressions that also supports references from mathematical models to
+elements of a domain model. However, the approach uses a highly
+proprietary vocabulary and does not consider any standards like MathML
+or OpenMath.</p>
 </div>
 </div>
 </div>
@@ -1170,13 +1116,10 @@ existing XML representation.</p>
 <div class="footnote" id="_footnotedef_1">
 <a href="#_footnoteref_1">1</a>. The RDF version of the Content Dictionaries is available at <a href="https://github.com/numerateweb/openmath-cd" class="bare">https://github.com/numerateweb/openmath-cd</a> (29.06.2021)
 </div>
-<div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. <a href="http://platform.enilink.net/" class="bare">http://platform.enilink.net/</a> (29.06.2021)
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-05-13 12:51:40 UTC
+Last updated 2022-05-18 11:47:19 UTC
 </div>
 </div>
 <style>
@@ -1268,29 +1211,5 @@ table.CodeRay td.code{padding:0 0 0 .75em}
 .CodeRay .change .change{color:#66f}
 .CodeRay .head .head{color:#f4f}
 </style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  messageStyle: "none",
-  tex2jax: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [["\\[", "\\]"]],
-    ignoreClass: "nostem|nolatexmath"
-  },
-  asciimath2jax: {
-    delimiters: [["\\$", "\\$"]],
-    ignoreClass: "nostem|noasciimath"
-  },
-  TeX: { equationNumbers: { autoNumber: "none" } }
-})
-MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
-  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
-    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
-      data.math.root.display = "block"
-    }
-    return data
-  })
-})
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>
