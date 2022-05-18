@@ -1,3 +1,5 @@
+:imagesdir: ./images
+
 = OpenMath-RDF: RDF encodings for OpenMath objects and Content Dictionaries
 
 This document specifies RDF encodings for OpenMath objects and Content
