@@ -554,11 +554,7 @@ objects OpenMath-XML can rely on the tree structure to represent syntax
 trees of OpenMath expressions.</p>
 </div>
 <div class="paragraph">
-<p>As an example Figure #fig:openmath-xml-baum<a id="fig:openmath-xml-baum"></a>
-shows on the left side the abstract syntax tree of the expression
-\(sin(x + y)\) and on the right side the respective
-OpenMath-XML encoding. For the representation of application objects
-(<code>OMA</code>) in RDF the additional property <code>:arguments</code> is required. It
+<p>For the representation of application objects (OMA) in RDF the additional property <code>:arguments</code> is required. It
 references a list of arguments while the property <code>:operator</code> determines
 the function that is applied to to the arguments. A similar
 representation is also used for the other compound objects <em>binding</em>
@@ -567,13 +563,10 @@ the OpenMath JSON encoding that also uses additional properties to
 represent parent-child relationships.</p>
 </div>
 <div class="paragraph">
-<p>The resulting RDF representation of the expression is shown in
-Listing #lst:openmath-rdf<a id="lst:openmath-rdf"></a>. Caused by the additional
-properties the syntax is less compact as with the XML format but offers
-stronger semantics. For example, the meaning of the child elements is
-directly expressed through the properties <code>:operator</code> and <code>:arguments</code>.</p>
+<p>The resulting RDF representation of the expression <code>sin(x + y)</code> is shown in following example.</p>
 </div>
-<div class="listingblock">
+<div id="lst-openmath-rdf-example" class="listingblock">
+<div class="title">Example: RDF encoding of <code>sin(x + y)</code></div>
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="turtle">@prefix : &lt;http://numerateweb.org/vocab/math#&gt; .
 
@@ -588,6 +581,12 @@ directly expressed through the properties <code>:operator</code> and <code>:argu
     ]
   ) .</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>Caused by the additional
+properties the syntax is less compact as with the XML format but offers
+stronger semantics. For example, the meaning of the child elements is
+directly expressed through the properties <code>:operator</code> and <code>:arguments</code>.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1144,7 +1143,7 @@ In: Computers &amp; Chemical Engineering 66 (2014), Juli, 139-150.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-06-03 08:01:55 UTC
+Last updated 2022-06-07 13:51:08 UTC
 </div>
 </div>
 <style>
